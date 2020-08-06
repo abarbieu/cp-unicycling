@@ -1,0 +1,124 @@
+[
+  {
+    "root": {
+      "title": "Enter",
+      "children": [ "projects", "resume", "tools", "art", "about" ]
+    }
+  },
+  {
+    "projects": {
+      "title": "Projects",
+      "background": "icons/code.png",
+      "children": [ "fun", "all-projects", "web", "school" ]
+    },
+    "resume": {
+      "title": "Interactive Resume",
+      "route": "/interactive-resume/"
+    },
+    "tools": {
+      "title": "Tools",
+      "background": "icons/notes.png",
+      "children": [ "notes", "timeline" ]
+    },
+    "art": {
+      "title": "Arty Things",
+      "background": "icons/sherbert.svg",
+      "children": [ "all-art", "ceramics", "photography" ]
+    },
+    "about": {
+      "title": "About Me",
+      "background": "icons/cookie-power.png",
+      "route": "/about/"
+    }
+  },
+  {
+    "all-projects": {
+      "title": "View All",
+      "link": "https://github.com/abarbieu?tab=repositories"
+    },
+    "web": {
+      "title": "Web Dev",
+      "background": "icons/internet.png",
+      "children": [ "frontend", "backend" ]
+    },
+    "fun": {
+      "title": "Fun",
+      "background": "icons/mzoom.gif",
+      "children": [ "fractals", "data-vis" ]
+    },
+    "school": {
+      "title": "School Projects",
+      "children": [ "highschool", "thumbsim" ]
+    },
+    "notes": {
+      "title": "Notes",
+      "background": "icons/notes.png",
+      "route": "/notes/"
+    },
+    "timeline": { "title": "TimeLine", "route": "/timeline/" },
+    "all-art": { "title": "View All", "route": "/art/" },
+    "ceramics": {
+      "title": "Ceramics",
+      "background": "icons/color-bowl.jpg",
+      "route": "/art/ceramics/"
+    },
+    "photography": {
+      "title": "Photography",
+      "background": "icons/droplet-o.png",
+      "route": "/art/photography"
+    },
+    "random": {
+      "title": "Random",
+      "route": "/art/random"
+    }
+  },
+  {
+    "frontend": {
+      "title": "Front-End",
+      "background": "icons/react.png",
+      "link": "https://github.com/abarbieu/abarbieux-frontend"
+    },
+    "backend": {
+      "title": "Back-End",
+      "background": "icons/postgres.png",
+      "link": "https://github.com/abarbieu/abarbieux-backend"
+    },
+    "database": {
+      "title": "Postgres Fun",
+      "background": "icons/postgres.png",
+      "link": "https://github.com/abarbieu/postgreSQL-playground"
+    },
+    "thumbsim": {
+      "title": "ARM Simulator",
+      "link": "https://github.com/abarbieu/arm-thumb-simulator"
+    },
+    "highschool": {
+      "title": "Highschool CS",
+      "children": [ "ants", "food-rater", "trig-circles" ]
+    },
+    "fractals": {
+      "title": "Fractals",
+      "background": "icons/jzoom-o.gif",
+      "link": "https://github.com/abarbieu/Mandelbrot"
+    },
+    "data-vis": {
+      "title": "Data Visualization",
+      "background": "icons/gpxdemo-o.gif",
+      "link": "https://github.com/abarbieu/gpxVis"
+    }
+  },
+  {
+    "ants": {
+      "title": "Langtons Ant",
+      "link": "https://github.com/abarbieu/Ants"
+    },
+    "food-rater": {
+      "title": "Food Rater IOS App",
+      "link": "https://github.com/abarbieu/FoodRater"
+    },
+    "trig-circles": {
+      "title": "Trig Circles",
+      "link": "https://github.com/abarbieu/Trig-Circles"
+    }
+  }
+]
