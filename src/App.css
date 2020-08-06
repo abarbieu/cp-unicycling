@@ -10,11 +10,17 @@
   height: 100vh;
   text-align: center;
   overflow: hidden;
-  background: url('./resources/background-patterns/bg-pblue-str.png');
+  background: url('./resources/background-patterns/bg-gr-go-str.png');
   background-repeat: round;
   background-size: 64px;
   padding: 0px;
   margin: 0px;
+}
+
+.MainNav {
+  background-color: #030303;
+  border-width: 3px;
+  border-color: #ffaf00;
 }
 /* .screenCover {
   outline: none;
