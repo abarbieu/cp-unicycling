@@ -31,10 +31,27 @@ class App extends React.Component<MyProps, MyState> {
           <main>
             <Router>
               <Switch>
-                <Route path='/unicycle-basketball' />
-                <Route path='/meetings' />
-                <Route path='/gallery' />
-                <Route path='/contact' />
+                <Route path='/unicycle-basketball'>
+                  <h1 className='MainHeader'>Unicycle Basketball!</h1>
+                </Route>
+                <Route path='/meetings'>
+                  <h1 className='MainHeader'>Meetings</h1>
+                </Route>
+                <Route path='/gallery'>
+                  <h1 className='MainHeader'>Gallery</h1>
+                </Route>
+                <Route path='/contact/members'>
+                  <h1 className='MainHeader'>Members</h1>
+                </Route>
+                <Route path='/contact/mailing-list'>
+                  <h1 className='MainHeader'>Mailing list</h1>
+                </Route>
+                <Route path='/contact'>
+                  <h1 className='MainHeader'>Contact</h1>
+                </Route>
+                <Route path='/home'>
+                  <h1 className='MainHeader'>Home</h1>
+                </Route>
                 <Route path='/' />
               </Switch>
             </Router>
