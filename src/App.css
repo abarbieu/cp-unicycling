@@ -5,17 +5,39 @@
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
     Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
-.Tiled-back {
-  width: 100vw;
-  height: 100vh;
+#Tiled-bg {
+  overflow-x: hidden;
+  padding-bottom: 25px;
   text-align: center;
-  overflow: hidden;
-  background: url('./resources/background-patterns/bg-gr-go-str.png');
+  min-height: 100vh;
+  background: url('./resources/background-patterns/bg-tan-str.png');
   background-repeat: round;
   background-size: 64px;
   padding: 0px;
   margin: 0px;
 }
+#wrap {
+  min-height: 100vh;
+}
+#Launch-bg {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: black url('./resources/tempbg.jpg') center center no-repeat;
+  background-size: cover;
+}
+footer {
+  background-color: #011808a0;
+  color: #eedcb7;
+}
+.footer {
+  position: relative;
+  margin-top: -25px; /* negative value of footer height */
+  height: 25px;
+  clear: both;
+}
+
 .MainHeader {
   background-color: #011808a0;
   color: #eedcb7;
@@ -27,10 +49,12 @@
 .shr-btn:focus {
   outline: none;
 }
+
 .shr-btn:active {
   transition: scale 250ms;
   transform: scale(0.75);
 }
+
 #copyIcon {
   border: 10 thick dashed yellow;
   outline: none;
