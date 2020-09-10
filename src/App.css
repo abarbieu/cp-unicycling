@@ -5,7 +5,7 @@
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
     Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
-#Tiled-bg {
+.Tiled-bg {
   overflow-x: hidden;
   padding-bottom: 25px;
   text-align: center;
@@ -19,14 +19,14 @@
 #wrap {
   min-height: 100vh;
 }
-#Launch-bg {
+/* #Launch-bg {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
   background: black url('./resources/tempbg.jpg') center center no-repeat;
   background-size: cover;
-}
+} */
 footer {
   background-color: #011808a0;
   color: #eedcb7;
@@ -45,16 +45,46 @@ footer {
   padding: 10px;
   border: thin dashed #eedcb7;
 }
-
+/* .tanPills ul > li > a {
+  background-color: white;
+  color: red;
+}
+.tanPills ul > li > a:hover {
+  background-color: pink;
+} */
+/* .tanPills > li.active > a,
+.tanPills > li.active > a:hover,
+.tanPills > li.active > a:focus {
+  color: black;
+  background-color: #c4b79d;
+} */
+/* not active */
+.tanPills .navLink {
+  transition: transform 150ms;
+  transition: background-color 250ms;
+  border-radius: 3px;
+}
+/* active*/
+.tanPills .navLink:active {
+  transform: scale(0.75);
+  background-color: #6d6556;
+}
+.tanPills .navLink:focus {
+  background-color: #c4b79d;
+}
+.shr-btn {
+  transition: transform 250ms;
+}
 .shr-btn:focus {
   outline: none;
 }
 
 .shr-btn:active {
-  transition: scale 250ms;
   transform: scale(0.75);
 }
-
+#collasible-nav-dropdown {
+  transition: all 250ms;
+}
 #copyIcon {
   border: 10 thick dashed yellow;
   outline: none;
@@ -65,132 +95,8 @@ footer {
   border-width: 3px;
   border-color: #ffaf00;
 }
-/* .screenCover {
-  outline: none;
-  margin: 0px;
-  padding: 0px;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(32, 32, 32, 0.2);
-}
-.hidden {
-  visibility: hidden;
-}
-.fadeIn {
-  animation: fadein 350ms ease-in-out forwards;
-}
-.fadeOut {
-  animation: fadeout 350ms ease-in-out forwards;
-}
 
-@keyframes fadein {
-  0% {
-    opacity: 0;
-    visibility: visible;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadeout {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-} */
-
-/*
-!-----------------------------------------------------------
-*/
-/* .panel {
-  position: absolute;
-  background-color: #f9e7a9c0;
-  color: #292635;
-  margin: 0px;
-  padding: 0px;
-  font-size: 10pt;
-  outline: none;
-}
-.panel-btn {
-  position: absolute;
-  background-color: #5e1516;
-  border-color: #5e1516;
-  color: #f9e7a9c0;
-}
-.panel-btn:hover {
-  border-color: #f9e7a9c0;
-  border-width: 2px;
-} */
-/*
-!-----------------------------------------------------------
-*/
-/* .round-top {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-}
-.panel#bottom-panel {
-  bottom: -280px;
-  height: 300px;
-}
-.panel-btn#bottom-btn {
-  width: 300px;
-  top: 0px;
-  left: 0px;
-} */
-/*
-!-----------------------------------------------------------
-*/
-/* .round-right {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-.panel#left-panel {
-  left: -280px;
-  width: 300px;
-  height: 200px;
-}
-
-.panel-btn#left-btn {
-  width: 200px;
-  height: 20px;
-  right: -90px;
-  top: 90px;
+.Vert-txt {
   overflow: visible;
-  transform: rotate(90deg);
-} */
-/* 
-@keyframes hide-left {
-  0% {
-    transform: translate(260px, 0px);
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
+  transform: rotate(-90deg);
 }
-@keyframes expand-left {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  100% {
-    transform: translate(260px, 0px);
-  }
-}
-@keyframes hide-bottom {
-  0% {
-    transform: translate(0px, -100px);
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-@keyframes expand-bottom {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  100% {
-    transform: translate(0px, -100px);
-  }
-} */
